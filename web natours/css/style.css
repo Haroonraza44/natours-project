@@ -272,21 +272,27 @@ body {
   margin-top: -12rem;
   background-color: #f7f7f7;
   padding-top: 25rem;
-  padding-bottom: 20rem;
+  padding-bottom: 12rem;
 }
 
-@media (max-width: 56.25em) {
-  padding: 20rem 0 5rem 0;
-}
+@media (max-width: 56.25em) {.section-tour{
+  padding: 20rem 0 8rem 0;
+}}
 
 .section-stories {
   padding: 15rem 0;
   position: relative;
 }
+.section-stories .row{
+margin-bottom: 0 !important;}
 
-@media (max-width: 56.25em) {
+@media (max-width: 56.25em) {.section-stories{
+  padding: 10rem 0;
+}}
+
+@media (max-width: 37.5em) {
   .section-stories {
-    padding: 10rem 0;
+    padding: 7rem 0;
   }
 }
 
@@ -1347,6 +1353,12 @@ right: 1rem;}
     background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../../img/hero.jpg);
   }
 }
+@media (max-width: 56.5em) {
+  .header {
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  }
+}
+
 
 @media (max-width: 37.5em) {
   .header {
